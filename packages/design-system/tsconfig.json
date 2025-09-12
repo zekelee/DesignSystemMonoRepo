@@ -1,17 +1,10 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
-    "lib": ["DOM", "ES2020"],
-    "jsx": "react-jsx",
     "declaration": true,
     "declarationDir": "dist/types",
     "outDir": "dist",
     "esModuleInterop": true,
-    "moduleResolution": "Node",
-    "skipLibCheck": true,
-    "strict": true,
-    "baseUrl": "./",
     "resolveJsonModule": true
   },
   "include": ["src"]
